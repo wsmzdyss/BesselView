@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="VoiceView">
+        <attr name="firstColor" format="color"/>
+        <attr name="secondColor" format="color"/>
+        <attr name="count" format="integer"/>
+        <attr name="widthSize" format="integer"/>
+        <attr name="circleSize" format="dimension"/>
+        <attr name="bg" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="BesselView">
+        <attr name="circleColor" format="color"/>
+        <attr name="maxLength" format="dimension"/>
+        <attr name="circleRadius" format="dimension"/>
+        <attr name="number" format="integer"/>
+        <attr name="numberColor" format="color"/>
+        <attr name="numberSize" format="dimension"/>
+        <attr name="minPercent" format="float"/>
+    </declare-styleable>
+
+</resources>
